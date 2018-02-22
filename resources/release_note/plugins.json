@@ -49,12 +49,12 @@
                             "endPath": "//grid/console"
                         }
                     },
-                    {
-                        "id": "sensu",
-                        "title": "sensu",
-                        "img": "img/sensu.png",
+                     {
+                        "id": "grafana",
+                        "title": "grafana",
+                        "img": "img/grafana.png",
                         "description": "Monitoring",
-                        "link": "/sensu/"
+                        "link": "/grafana/"
                     },
                     {
                         "id": "ldap-ltb",
