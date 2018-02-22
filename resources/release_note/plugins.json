@@ -53,8 +53,22 @@
                         "id": "grafana",
                         "title": "grafana",
                         "img": "img/grafana.png",
-                        "description": "Monitoring",
+                        "description": "Monitoring visulisation",
                         "link": "/grafana/"
+                    },
+                    {
+                        "id": "prometheus",
+                        "title": "prometheus",
+                        "img": "img/prometheus.png",
+                        "description": "Monitoring service",
+                        "link": "/prometheus/"
+                    },
+                    {
+                        "id": "alertmanager",
+                        "title": "alertmanager",
+                        "img": "img/alertmanager.png",
+                        "description": "Alerting service ",
+                        "link": "/prometheus/"
                     },
                     {
                         "id": "ldap-ltb",
