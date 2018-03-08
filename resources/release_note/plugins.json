@@ -36,7 +36,7 @@
                         "title": "kibana",
                         "img": "img/kibana.png",
                         "description": "Kibana Dashboard for Logging (ELK)",
-                        "link": "/app/kibana"
+                        "link": "/kibana/"
                     },
                     {
                         "id": "selenium",
