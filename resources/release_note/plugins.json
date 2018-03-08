@@ -68,7 +68,7 @@
                         "title": "alertmanager",
                         "img": "img/alertmanager.png",
                         "description": "Alerting service ",
-                        "link": "/prometheus/"
+                        "link": "/alertmanager/"
                     },
                     {
                         "id": "ldap-ltb",
