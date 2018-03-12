@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "start filebeat"
+/etc/init.d/filebeat start
+
 cp -R /resources/configuration/* /etc/nginx/
 cp -R /resources/release_note/* /usr/share/nginx/html/
 
