@@ -31,6 +31,7 @@ RUN mkdir /var/log/nginx \
     && ./auto/configure \
         --add-module=/root/nginx-auth-ldap \
         --with-http_ssl_module \
+        --with-http_sub_module \
         --with-debug \
         --conf-path=/etc/nginx/nginx.conf \
         --sbin-path=/usr/sbin/nginx \
