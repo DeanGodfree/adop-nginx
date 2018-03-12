@@ -17,7 +17,8 @@ RUN apt-get update \
         libldap2-dev \
         libssl-dev \
         wget \
-        jq
+        jq \
+        curl
 
 # See http://wiki.nginx.org/InstallOptions
 RUN mkdir /var/log/nginx \
