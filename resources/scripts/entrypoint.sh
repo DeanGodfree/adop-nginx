@@ -1,8 +1,14 @@
 #!/bin/bash
 set -e
 
-echo "start filebeat"
-/etc/init.d/filebeat start
+echo "Installing Nginx module for filebeat"
+filebeat modules enable nginx
+
+echo "Setting up filebeat config with nginx"
+filebeat setup -e
+
+#echo "start filebeat"
+#/etc/init.d/filebeat start
 
 cp -R /resources/configuration/* /etc/nginx/
 cp -R /resources/release_note/* /usr/share/nginx/html/
