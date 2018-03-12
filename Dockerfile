@@ -56,4 +56,10 @@ COPY resources/scripts/ /resources/scripts/
 COPY templates/configuration/ /templates/configuration/
 RUN chmod +x /resources/scripts/*
 
+#Install Filebeat
+RUN curl -o /tmp/filebeat_6.2.2_amd64.deb https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.2.2-amd64.deb && \
+    dpkg -i /tmp/filebeat_6.2.2_amd64.deb && apt-get install
+ #Copying new filebeat config in post install
+ COPY resources/filebeat.yml /etc/filebeat/filebeat.yml
+
 CMD ["/resources/scripts/entrypoint.sh"]
