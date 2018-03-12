@@ -4,8 +4,8 @@ set -e
 echo "Installing Nginx module for filebeat"
 filebeat modules enable nginx
 
-echo "Setting up filebeat config with nginx"
-filebeat setup -e
+#echo "Setting up filebeat config with nginx"
+#filebeat setup -e
 
 #echo "start filebeat"
 #/etc/init.d/filebeat start
