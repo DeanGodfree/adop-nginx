@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Robert Northard, <robert.a.northard>
 
-ENV NGINX_VERSION 1.8.0
+ENV NGINX_VERSION 1.12.2
 ENV LDAP_PROTOCOL ldap
 ############## nginx setup ##############
 
